@@ -1,0 +1,94 @@
+/* mobile view */
+@media only screen and (min-width:320px){
+    .login{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .login_form{
+        margin-left: 13px;
+        width: 295px;
+    }
+    .login_form h2{
+        width: 100px;
+    }
+    .create_account h2{
+        width: 200px;
+    }
+    .create_account{
+        margin-left: 12px;
+        margin-top: 10px;
+        width: 295px;
+    }
+    .login_form [type="email"],
+    .login_form [type="password"],
+    .create_account [type="text"],
+    .create_account [type="email"],
+    .create_account [type="password"]{
+        width: 233px;
+    }
+}
+/* tablet view */
+@media only screen and (min-width:768px){
+    .login{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .login_form, .create_account{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .login_form [type="email"],
+    .login_form [type="password"],
+    .create_account [type="text"],
+    .create_account [type="email"],
+    .create_account [type="password"] {
+        width: 400px;
+    }
+}
+/* laptop view */
+@media only screen and (min-width:1024px){
+    .login{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .login_form{
+        width: 450px;
+        margin-left: 27px;
+    }
+    .create_account{
+        width: 450px;
+        margin-left: 0;
+        margin-top: 2px;
+    }
+    .login_form [type="email"],
+    .login_form [type="password"],
+    .create_account [type="text"],
+    .create_account [type="email"],
+    .create_account [type="password"] {
+        width: 345px;
+    }
+}
+/* 4k view */
+@media only screen and (min-width:1440px){
+    .login {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .login_form {
+        width: 590px;
+        margin-left: 93px;
+    }
+    .create_account {
+        width: 606px;
+        margin-left: 0;
+        margin-top: 2px;
+    }
+    .login_form [type="email"],
+    .login_form [type="password"],
+    .create_account [type="text"],
+    .create_account [type="email"],
+    .create_account [type="password"] {
+        width: 520px;
+    }
+
+}
